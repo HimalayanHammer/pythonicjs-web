@@ -1,29 +1,45 @@
 {
   "name": "pythonicjs-web",
-  "version": "4.0.0",
-  "description": "A javascript library to be used in the browser. It provides functionality of a lot of the python like functions. This is written so that people who love python and are not a big fan of javascript might actually enjoy learning and writing javascript. ",
+  "version": "5.0.0",
+  "description": "Python's built-in functions for JavaScript in the browser: print, len, range, sorted, zip, enumerate and more. Same library as pythonicjs, packaged for <script> tags",
   "main": "pythonicjs_web.js",
+  "unpkg": "pythonicjs_web.js",
+  "jsdelivr": "pythonicjs_web.js",
+  "files": [
+    "pythonicjs_web.js",
+    "CHANGELOG.md"
+  ],
   "scripts": {
-    "test": "npx mocha pythonicjsTest.js"
+    "test": "mocha"
   },
-  "dependencies": {
-    "chai": "^4.3.10",
-    "mocha": "^10.2.0"
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^10.8.2"
+  },
+  "engines": {
+    "node": ">=12"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Qrishna/pythonicjs-web.git"
+    "url": "git+https://github.com/KrishnaMBhattarai/pythonicjs-web.git"
   },
   "keywords": [
-    "pythonicjs",
     "pythonicjs-web",
     "python",
-    "pythonicjavascript"
+    "pythonic",
+    "pythonicjs",
+    "builtins",
+    "range",
+    "zip",
+    "enumerate",
+    "sorted",
+    "utility",
+    "browser"
   ],
   "author": "Krishna Bhattarai",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Qrishna/pythonicjs-web/issues"
+    "url": "https://github.com/KrishnaMBhattarai/pythonicjs-web/issues"
   },
-  "homepage": "https://github.com/Qrishna/pythonicjs-web#readme"
+  "homepage": "https://github.com/KrishnaMBhattarai/pythonicjs-web#readme"
 }
