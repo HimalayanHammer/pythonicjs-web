@@ -1,5 +1,16 @@
 # pythonicjs-web
 
+> [!IMPORTANT]
+> **pythonicjs-web is deprecated.** It has been merged into [pythonicjs](https://github.com/KrishnaMBhattarai/pythonicjs), which now ships the same `<script>` build alongside ES modules, CommonJS and TypeScript types. Version 5.0.0 is the last release of this package.
+>
+> ```html
+> <script src="https://unpkg.com/pythonicjs"></script>
+> ```
+>
+> ```bash
+> npm uninstall pythonicjs-web && npm install pythonicjs
+> ```
+
 [![npm](https://img.shields.io/npm/v/pythonicjs-web.svg)](https://www.npmjs.com/package/pythonicjs-web)
 [![tests](https://github.com/KrishnaMBhattarai/pythonicjs-web/actions/workflows/test.yml/badge.svg)](https://github.com/KrishnaMBhattarai/pythonicjs-web/actions/workflows/test.yml)
 
